@@ -1,0 +1,12 @@
+INSERT INTO library (title, author, isbn, publication_year, genre, quantity, member_id, loan_date, return_date)
+VALUES 
+    ('To Kill a Mockingbird', 'Harper Lee', '9780061120084', 1960, 'Fiction', 10, NULL, NULL, NULL),
+    ('1984', 'George Orwell', '9780451524935', 1949, 'Dystopian', 10, NULL, NULL, NULL),
+    ('Pride and Prejudice', 'Jane Austen', '9780141439518', 1813, 'Romance', 10, NULL, NULL, NULL),
+    ('The Great Gatsby', 'F. Scott Fitzgerald', '9780743273565', 1925, 'Fiction', 10, NULL, NULL, NULL),
+    ('The Catcher in the Rye', 'J.D. Salinger', '9780316769488', 1951, 'Fiction', 10, NULL, NULL, NULL),
+    ('To the Lighthouse', 'Virginia Woolf', '9780156907392', 1927, 'Modernist', 10, NULL, NULL, NULL),
+    ('Brave New World', 'Aldous Huxley', '9780060850524', 1932, 'Science Fiction', 10, NULL, NULL, NULL),
+    ('The Hobbit', 'J.R.R. Tolkien', '9780547928227', 1937, 'Fantasy', 10, NULL, NULL, NULL),
+    ('Moby-Dick', 'Herman Melville', '9780142437247', 1851, 'Adventure', 10, NULL, NULL, NULL),
+    ('The Odyssey', 'Homer', '9780143039952', -800, 'Epic Poetry', 10, NULL, NULL, NULL);
