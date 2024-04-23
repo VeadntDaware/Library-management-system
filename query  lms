@@ -1,0 +1,13 @@
+-- Create the 'library' table
+CREATE TABLE library (
+    item_id SERIAL PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    author VARCHAR(100),
+    isbn VARCHAR(20) UNIQUE,
+    publication_year INTEGER,
+    genre VARCHAR(100),
+    quantity INTEGER NOT NULL,
+    member_id INTEGER,
+    loan_date DATE,
+    return_date DATE
+);
